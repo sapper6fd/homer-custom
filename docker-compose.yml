@@ -9,7 +9,7 @@ services:
     volumes:
       - /your/local/assets/:/www/assets
     ports:
-      - 8080:8080
+      - 8089:8089
     user: 1000:1000 # default
     environment:
       - INIT_ASSETS=1 # default
